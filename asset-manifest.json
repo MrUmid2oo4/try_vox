@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TryVox/static/css/main.1cf782a5.css",
-    "main.js": "/TryVox/static/js/main.c9a6a1e4.js",
-    "static/js/453.2968d6c0.chunk.js": "/TryVox/static/js/453.2968d6c0.chunk.js",
+    "main.js": "/TryVox/static/js/main.d89025f5.js",
+    "static/js/453.3d0fdefc.chunk.js": "/TryVox/static/js/453.3d0fdefc.chunk.js",
     "static/media/arika.jpg": "/TryVox/static/media/arika.dc52bbb21b13988a4202.jpg",
     "static/media/dron.jpg": "/TryVox/static/media/dron.379e35b972987d670e78.jpg",
     "static/media/abbos.png": "/TryVox/static/media/abbos.0aa74125d587b3125cc2.png",
@@ -26,11 +26,11 @@
     "static/media/bg.svg": "/TryVox/static/media/bg.5572a94be724c396306e769c6375eb71.svg",
     "index.html": "/TryVox/index.html",
     "main.1cf782a5.css.map": "/TryVox/static/css/main.1cf782a5.css.map",
-    "main.c9a6a1e4.js.map": "/TryVox/static/js/main.c9a6a1e4.js.map",
-    "453.2968d6c0.chunk.js.map": "/TryVox/static/js/453.2968d6c0.chunk.js.map"
+    "main.d89025f5.js.map": "/TryVox/static/js/main.d89025f5.js.map",
+    "453.3d0fdefc.chunk.js.map": "/TryVox/static/js/453.3d0fdefc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cf782a5.css",
-    "static/js/main.c9a6a1e4.js"
+    "static/js/main.d89025f5.js"
   ]
 }
