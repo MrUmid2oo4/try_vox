@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './assets/styles/global.scss';
 import './i18n';
@@ -12,6 +12,7 @@ import Team from './components/team/Team';
 import Game from './components/games/Game';
 import Ded from './page/DedGame/Ded';
 import Preloader from './components/preloader/Preloader';
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,7 +30,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Routes>
           <Route path="/TryVox" element={
@@ -55,7 +56,7 @@ function App() {
           <Route path="/" element={<Navigate to="/TryVox" replace />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
