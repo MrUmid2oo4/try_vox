@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './assets/styles/global.scss';
 import './i18n';
@@ -32,7 +32,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={
+          <Route path="/TryVox" element={
             <>
               <Header />
               <div id="home">
@@ -52,6 +52,7 @@ function App() {
             </>
           } />
           <Route path="/DedGame" element={<Ded />} />
+          <Route path="/" element={<Navigate to="/TryVox" replace />} />
         </Routes>
       </div>
     </BrowserRouter>
